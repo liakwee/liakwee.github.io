@@ -73,7 +73,7 @@ td { vertical-align: top; }
    Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
    ========================================================================== */
 
-body{ font:16px/26px Helvetica, Helvetica Neue, Arial; }
+body{ font:16px/26px 'Galdeano', serif, Helvetica Neue, Arial; background: url(../images/content-bg.png);}
 
 .wrapper{
 	width:90%;
@@ -84,17 +84,21 @@ body{ font:16px/26px Helvetica, Helvetica Neue, Arial; }
     ALL: Orange Theme
    =================== */
 
-#header-container{ border-bottom: 20px solid #e44d26; }
-#footer-container{ border-top:    20px solid #e44d26; }
-#main aside      { border-top:    20px solid #e44d26; }
+/*#header-container{ border-bottom: 15px solid #A1A194; }*/
+#footer-container{ border-top:    4px solid #A1A194; }
+#main aside      { border-top:    15px solid #A1A194; }
 
 #header-container,
-#footer-container,
 #main aside{
-	background:#f16529;
+	background:#464646;
 }
 
-#title{ color:white; }
+#footer-container{
+    background: #A90641;
+}
+
+
+#title{ color:white; font-family: 'Playball', cursive;}
 
 ::-moz-selection { background: #f16529; color: #fff; text-shadow: none; }
 ::selection      { background: #f16529; color: #fff; text-shadow: none; }
@@ -107,8 +111,7 @@ nav a{
 	display:block;
 	margin-bottom:10px;
 	padding:15px 0;
-
-	background:#e44d26;
+	background:#A1A194;
 	color:white;
 
 	text-align:center;
@@ -116,12 +119,15 @@ nav a{
 	font-weight:bold;
 }
 
-nav a:hover, nav a:visited{
+nav a:hover{
+	background:#5B605F;
 	color:white;
+	text-decoration:none;
 }
 
-nav a:hover{
-	text-decoration:underline;
+nav a:visited{
+    color:white;
+    text-decoration:none;
 }
 
 /* ==============
@@ -181,8 +187,9 @@ nav a:hover{
 		float:left;
 		width:27%;
 		margin:0 1.7%;
-		padding:25px 2%;
+		padding:8px 2%;
 		margin-bottom:0;
+		margin-top: 12px;
 	}
 	
 	nav li:first-child a{ margin-left:0;  }
