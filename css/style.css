@@ -76,6 +76,7 @@ td { vertical-align: top; }
 body{ font:16px/26px 'Galdeano', serif, Helvetica Neue, Arial; background: url(../images/content-bg.png);}
 
 .wrapper{
+    position: relative;
 	width:90%;
 	margin:0 5%;
 }
@@ -153,9 +154,41 @@ body{ font:16px/26px 'Galdeano', serif, Helvetica Neue, Arial; background: url(.
 		0px 1px 0px rgba(250,250,250,0.3);
 		
 	float: left;
-	width: 54.02090592%;
+	
 	height: 200px;
 }
+
+#main #filter{
+    color: #000000;
+    padding: 5px 14px;
+    background: -moz-linear-gradient(
+        top,
+        #ffffff 0%,
+        #ededed);
+    background: -webkit-gradient(
+        linear, left top, left bottom, 
+        from(#ffffff),
+        to(#ededed));
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border: 0px solid #000000;
+    -moz-box-shadow:
+        0px 0px 2px rgba(000,000,000,0.3),
+        inset 0px 0px 3px rgba(255,255,255,0);
+    -webkit-box-shadow:
+        0px 0px 2px rgba(000,000,000,0.3),
+        inset 0px 0px 3px rgba(255,255,255,0);
+    text-shadow:
+        0px -1px 0px rgba(255,255,255,0.4),
+        0px 1px 0px rgba(250,250,250,0.3);
+        
+}
+#main #filter span{ display: block; float: left; margin-right: 10px;}
+#main #filter ul {float: left; list-style: none; margin: 0; padding: 0;}
+#main #filter ul li{ float: left; }
+#main #filter ul li.space{ margin: 0 5px; }
+
 
 #title{ color:white; font-family: 'Playball', cursive;}
 
@@ -203,7 +236,7 @@ nav a:visited{
 
 #main aside{
 	color:white;
-	padding:0px 5% 10px;
+	padding:0px 2% 10px;
 }
 
 #footer-container footer{
@@ -264,6 +297,22 @@ nav a:visited{
 	.oldie nav a{
 		margin:0 0.7%;		
 	}
+	
+	#main aside{
+        position: absolute;
+        bottom: 0;
+        width: 96%;
+        margin-bottom: 10px;
+    }
+    
+    #main #intro {
+        width: 95.45%;
+        margin-bottom: 20px;
+    }
+    
+    #main article{
+        margin-bottom: 100px;
+    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -298,10 +347,16 @@ nav a:visited{
 
 	#main article{
 		float:left;
-		width:57%;
+/*		width:65%;*/
+	}
+	
+	#main #intro{
+	    width: 62.37752%;
+	   
 	}
 		
 	#main aside{
+	    position: relative;
 		float:right;
 		width:28%;
 	}
