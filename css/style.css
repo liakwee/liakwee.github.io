@@ -250,7 +250,7 @@ nav a:hover{
 	text-decoration:none;
 }
 
-nav a:visited{
+nav a{
     color:white;
     text-decoration:none;
 }
@@ -263,8 +263,13 @@ nav a:visited{
 	padding:30px 0;
 }
 
-#main article section {
-    float:left;    
+#main article div {
+    float:left;  
+    width: 19.20077%;  
+}
+
+#main article div img{
+	width: 100%;
 }
 
 .gutter-right{
@@ -380,6 +385,12 @@ nav a:visited{
     #main article{
         margin-bottom: 100px;
     }
+    
+    
+    #main article div {
+	    float:left;  
+	    width: 100%;  
+	}
 }
 
 @media only screen and (min-width: 768px) {
@@ -427,6 +438,11 @@ nav a:visited{
 		float:right;
 		width:28%;
 	}
+	
+	#main article div {
+	    float:left;  
+	    width:30%;  
+	}
 }
 
 @media only screen and (min-width: 1140px) {
@@ -438,6 +454,11 @@ nav a:visited{
 	.wrapper{
 		width:1026px; /* 1140px - 10% for margins */
 		margin:0 auto;
+	}
+	
+	#main article div {
+	    float:left;  
+	    width: 19.20077%;  
 	}
 }
 
