@@ -89,6 +89,7 @@ body{ font:16px/26px 'Galdeano', serif, Helvetica Neue, Arial; background: url(.
 #header-container,
 #footer-container,
 #main aside { 
+    
 	background: -moz-linear-gradient(
 		top,
 		#6b6a6b 0%,
@@ -110,6 +111,15 @@ body{ font:16px/26px 'Galdeano', serif, Helvetica Neue, Arial; background: url(.
 	text-shadow:
 		0px -2px 0px rgba(000,000,000,0),
 		0px 0px 0px rgba(255,255,255,0);
+}
+
+#main aside{
+    position: absolute;
+    bottom: 0;
+    width: 96%;
+    padding: 10px;
+    color: #fff;
+    margin-bottom: 10px;
 }
 
 /*#header-container,
@@ -154,13 +164,14 @@ body{ font:16px/26px 'Galdeano', serif, Helvetica Neue, Arial; background: url(.
 		0px 1px 0px rgba(250,250,250,0.3);
 		
 	float: left;
-	
+	margin-bottom: 20px;
 	height: 200px;
 }
 
 #main #filter{
     color: #000000;
     padding: 5px 14px;
+    margin-bottom: 10px;
     background: -moz-linear-gradient(
         top,
         #ffffff 0%,
@@ -190,7 +201,7 @@ body{ font:16px/26px 'Galdeano', serif, Helvetica Neue, Arial; background: url(.
 #main #filter ul li.space{ margin: 0 5px; }
 
 
-#title{ color:white; font-family: 'Playball', cursive;}
+#title{ color:white; font-family: 'Seaweed Script', cursive;}
 
 ::-moz-selection { background: #f16529; color: #fff; text-shadow: none; }
 ::selection      { background: #f16529; color: #fff; text-shadow: none; }
@@ -202,13 +213,35 @@ body{ font:16px/26px 'Galdeano', serif, Helvetica Neue, Arial; background: url(.
 nav a{
 	display:block;
 	margin-bottom:10px;
-	padding:15px 0;
-	background:#A1A194;
-	color:white;
+    background: -moz-linear-gradient(
+        top,
+        #6b6a6b 0%,
+        #464646);
+    background: -webkit-gradient(
+        linear, left top, left bottom, 
+        from(#6b6a6b),
+        to(#464646));
+    border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+/*    border: 1px solid #000000;*/
+    border-left:  1px solid #444444;
+    border-right:  1px solid #444444;
+    -moz-box-shadow:
+        0px 0px 0px rgba(000,000,000,0.5),
+        inset 0px 1px 1px rgba(255,255,255,0.4);
+    -webkit-box-shadow:
+        0px 0px 0px rgba(000,000,000,0.5),
+        inset 0px 1px 1px rgba(255,255,255,0.4);
+    text-shadow:
+        0px -2px 0px rgba(000,000,000,0),
+        0px 0px 0px rgba(255,255,255,0);
 
 	text-align:center;
 	text-decoration:none;
 	font-weight:bold;
+	height: 28px;
+	padding: 20px 0;
 }
 
 nav a:hover{
@@ -230,18 +263,45 @@ nav a:visited{
 	padding:30px 0;
 }
 
+#main article section {
+    float:left;    
+}
+
+.gutter-right{
+    margin-right: 10px;
+}
+
+.gutter-bottom{
+    margin-bottom: 10px;
+}
+
 #main article h1{
 	font-size:2em;
 }
 
-#main aside{
+#main 
+    position: absolute;
+    bottom: 0;
+    width: 96%;
+    margin-bottom: 10px;{
 	color:white;
-	padding:0px 2% 10px;
+/*	padding:0px 2% 10px;*/
 }
 
 #footer-container footer{
 	color:white;
 	padding:20px 0;
+}
+
+/**** Isotope filtering ****/
+
+.isotope-item {
+  z-index: 2;
+}
+
+.isotope-hidden.isotope-item {
+  pointer-events: none;
+  z-index: 1;
 }
 
 /* ===============
@@ -279,9 +339,10 @@ nav a:visited{
 		float:left;
 		width:27%;
 		margin:0 1.7%;
-		padding:8px 2%;
+		
 		margin-bottom:0;
-		margin-top: 12px;
+		
+/*		margin-top: 12px;*/
 	}
 	
 	nav li:first-child a{ margin-left:0;  }
@@ -305,6 +366,12 @@ nav a:visited{
         margin-bottom: 10px;
     }
     
+    .wrapper{
+        position: relative;
+        width:90%;
+        margin:0 5%;
+    }
+        
     #main #intro {
         width: 95.45%;
         margin-bottom: 20px;
