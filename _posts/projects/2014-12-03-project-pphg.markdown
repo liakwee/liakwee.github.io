@@ -1,5 +1,5 @@
 ---
-title: Pan Pacific Hotel Groups
+title: Pan Pacific Hotels Group
 subtitle: Desktop, Mobile
 layout: default
 modal-id: 2
