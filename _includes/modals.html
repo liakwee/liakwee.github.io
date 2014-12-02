@@ -1,0 +1,84 @@
+<!-- Portfolio Modals -->
+{% for post in site.posts %}
+<div class="portfolio-modal modal fade" id="portfolioModal{{ post.modal-id }}" data-deeplink="{{post.deeplink}}" tabindex="-1" role="dialog"
+     aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl">
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            <h2>{{ post.title }}</h2>
+            <hr class="star-primary">
+            <!-- <h3>{{post.slider1Title}}</h3>
+            <div class="slider desktop-site">
+              {% for slide in post.slider1 %}
+              <div>
+                <div class="image"><img src="img/portfolio/{{slide.img}}"/></div>
+              </div>
+              {% endfor %}
+            </div>
+            <br/>
+            <br/>
+            <h3>{{post.slider2Title}}</h3>
+            <div class="slider mobile-site">
+              {% for slide in post.slider2 %}
+              <div>
+                <div class="image"><img src="img/portfolio/{{slide.img}}"/></div>
+              </div>
+              {% endfor %}
+            </div> -->
+            <div class="desktop-container">
+              <h3>{{post.slider1Title}}</h3>
+              {% for slide in post.slider1 %}
+                <div>
+                  <div class="image"><img src="img/portfolio/{{slide.img}}"/></div>
+                </div>
+                <hr>
+              {% endfor %}
+            </div>
+
+            <div class="mobile-container">
+              <h3>{{post.slider2Title}}</h3>
+              {% for slide in post.slider2 %}
+                <div>
+                  <div class="image"><img src="img/portfolio/{{slide.img}}"/></div>
+                </div>
+                <hr>
+              {% endfor %}
+            </div>
+            <br/>
+
+            <!-- <p>{{ post.description }}</p> -->
+            <table class="proj-details table table-striped table-bordered">
+              <tr>
+                <td><strong>Project Link</strong></td>
+                <td><a href="{{post.project-link}}" target="_blank">{{post.project-link}}</a></td>
+              </tr>
+              <tr>
+                <td><strong>Client</strong></td>
+                <td>{{ post.client }}</td>
+              </tr>
+              <tr>
+                <td><strong>Date</strong></td>
+                <td>{{ post.project-date }}</td>
+              </tr>
+              <tr>
+                <td><strong>Web Technologies</strong></td>
+                <td>{{ post.technologies }}</td>
+              </tr>
+            </table>
+            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endfor %}
