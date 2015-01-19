@@ -66,7 +66,7 @@ gulp.task('sass', function () {
     .pipe($.plumber())
     .pipe($.rubySass({
       lineNumbers: true,
-      style: 'expanded',
+      style: 'compressed',
       precision: 10,
       sourcemap: 'auto',
       sourcemapPath: '../scss'
