@@ -20,13 +20,7 @@ slider1:
     desc: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis.
 
   - img: yoursingapore/know-singapore.png
-    desc: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis.
-
-  - img: yoursingapore/hotels.png
-    desc: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis.
-
-  - img: yoursingapore/contact-us.png
-    desc: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis.
+    desc: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis
 
 slider2Title: Mobile Site
 slider2:
@@ -46,21 +40,6 @@ slider2:
     desc: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis.
 
   - img: yoursingapore/mobile-5.png
-    desc: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis.
-
-  - img: yoursingapore/mobile-6.png
-    desc: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis.
-
-  - img: yoursingapore/mobile-7.png
-    desc: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis.
-
-  - img: yoursingapore/mobile-8.png
-    desc: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis.
-
-  - img: yoursingapore/mobile-9.png
-    desc: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis.
-
-  - img: yoursingapore/mobile-10.png
     desc: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis.
 
 
