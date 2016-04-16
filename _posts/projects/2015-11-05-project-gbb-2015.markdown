@@ -20,4 +20,5 @@ client: NParks
 description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
 technologies: Gulp, Browserify, HTML5, CSS3, jQuery, Adobe Experience Manager
 project-link: http://www.gardensbythebay.com.sg
+
 ---

@@ -11,6 +11,6 @@ twitter_username: liakwee
 github_username:  liakwee
 
 # Build settings
-markdown: redcarpet
+markdown: kramdown
 highlighter: pygments # or rouge or null
 exclude: ["node_modules", "gulpfile.js", "package.json"]
