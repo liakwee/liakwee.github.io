@@ -16,11 +16,6 @@ slider1:
   - img: yoursingapore/event-festivals.png
     desc: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis.
 
-  - img: yoursingapore/eat-drink.png
-    desc: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis.
-
-  - img: yoursingapore/know-singapore.png
-    desc: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis
 
 slider2Title: Mobile Site
 slider2:
@@ -30,17 +25,7 @@ slider2:
   - img: yoursingapore/mobile-1.png
     desc: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis.
 
-  - img: yoursingapore/mobile-2.png
-    desc: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis.
 
-  - img: yoursingapore/mobile-3.png
-    desc: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis.
-
-  - img: yoursingapore/mobile-4.png
-    desc: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis.
-
-  - img: yoursingapore/mobile-5.png
-    desc: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis.
 
 
 project-date: April 2014
