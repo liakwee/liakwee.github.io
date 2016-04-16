@@ -5,6 +5,7 @@ var gulp = require('gulp'),
   sass = require('gulp-sass'),
   prefix = require('gulp-autoprefixer'),
   cp = require('child_process'),
+  uglify = require('gulp-uglify'),
   sourcemaps = require('gulp-sourcemaps');
 
 module.exports = gulp;
@@ -38,6 +39,18 @@ gulp.task('browser-sync', ['sass', 'jekyll-build'], function () {
       baseDir: '_site'
     }
   });
+});
+
+gulp.task('js', function() {
+  return gulp.src('js/*.js')
+    .pipe(uglify())
+    .on('error', function (err) {
+      console.log(err.message);
+      browserSync.notify(err.message);
+    })
+    //.pipe($.autoprefixer(('last 2 version', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1', 'ios 6', 'android 4', { map: true })))
+    .pipe(gulp.dest('_site/js'))
+    .pipe(browserSync.reload({stream: true}))
 });
 
 /**
@@ -90,7 +103,7 @@ gulp.task('watch', function () {
   gulp.watch('_scss/**/*.scss', ['sass']);
   gulp.watch(['index.html', '_includes/*.html', '_layouts/*.html', '_posts/*'], ['jekyll-rebuild']);
   gulp.watch('_posts/**/*.markdown', ['jekyll-rebuild']);
-  gulp.watch('js/**/*.js', ['jekyll-rebuild']);
+  gulp.watch('js/**/*.js', ['js', 'jekyll-rebuild']);
 });
 
 /**
