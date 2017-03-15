@@ -21,9 +21,6 @@ slider1:
   - img: pphg/pp/destination.png
     desc: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis.
 
-  - img: pphg/pp/meeting.png
-    desc: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis.
-
   - img: pphg/pp/location.png
     desc: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis.
 
@@ -33,16 +30,7 @@ slider1:
   - img: pphg/pr/home2.png
     desc: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis.
 
-  - img: pphg/pr/home3.png
-    desc: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis.
-
-  - img: pphg/pr/home4.png
-    desc: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis.
-
   - img: pphg/pr/home5.png
-    desc: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis.
-
-  - img: pphg/pr/home6.png
     desc: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis.
 
   - img: pphg/pr/location.png

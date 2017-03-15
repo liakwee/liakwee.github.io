@@ -15,6 +15,30 @@
           <div class="modal-body">
             <h2>{{ post.title }}</h2>
             <hr class="star-primary">
+
+            <table class="proj-details table table-striped table-bordered">
+              <tr>
+                <td><strong>URL</strong></td>
+                <td><a href="{{post.project-link}}" target="_blank">{{post.project-link}}</a></td>
+              </tr>
+              <tr>
+                <td><strong>Client</strong></td>
+                <td>{{ post.client }}</td>
+              </tr>
+              <tr>
+                <td><strong>Date</strong></td>
+                <td>{{ post.project-date }}</td>
+              </tr>
+              <tr>
+                <td><strong>Technologies</strong></td>
+                <td>{{ post.technologies }}</td>
+              </tr>
+            </table>
+<!--
+            <h3>Challenges</h3>
+            <p>{{post.challenges}}</p> -->
+
+
             <!-- <h3>{{post.slider1Title}}</h3>
             <div class="slider desktop-site">
               {% for slide in post.slider1 %}
@@ -55,24 +79,7 @@
             <br/>
 
             <!-- <p>{{ post.description }}</p> -->
-            <table class="proj-details table table-striped table-bordered">
-              <tr>
-                <td><strong>Project Link</strong></td>
-                <td><a href="{{post.project-link}}" target="_blank">{{post.project-link}}</a></td>
-              </tr>
-              <tr>
-                <td><strong>Client</strong></td>
-                <td>{{ post.client }}</td>
-              </tr>
-              <tr>
-                <td><strong>Date</strong></td>
-                <td>{{ post.project-date }}</td>
-              </tr>
-              <tr>
-                <td><strong>Web Technologies</strong></td>
-                <td>{{ post.technologies }}</td>
-              </tr>
-            </table>
+
             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close
             </button>
           </div>

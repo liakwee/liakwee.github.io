@@ -2,7 +2,7 @@
 title: XM Asia Pacific
 subtitle: Responsive
 layout: default
-modal-id: 4
+modal-id: 10
 date: 2012-09-28
 img: xm.png
 thumbnail: xm-thumb.png
