@@ -1,22 +1,24 @@
 ---
-title: YourSingapore MICE
-date: 2015-10-20 00:00:00 Z
+title: Share it to end it
+date: 2014-04-05 00:00:00 Z
 subtitle: Desktop
 layout: default
-modal-id: 9
-img: roundicons.png
-thumbnail: stb-btmice/btmice-thumb.jpg
-alt: YourSingapore MICE
+modal-id: 3
+img: shareit.png
+thumbnail: shareit-thumb.png
+alt: image-alt
 slider1Title: Desktop Site
 slider1:
-- img: stb-btmice/stb-btmice.jpg
+- img: shareit/home.png
   desc: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis.
-project-date: Oct 2015
-client: Singapore Tourism Board
+- img: shareit/end.png
+  desc: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis.
+project-date: April 2014
+client: CABCY
+technologies: HTML5, CSS3. jQuery
 description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo
   novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo
   diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
-technologies: Gulp, Browserify, HTML5, CSS3, jQuery, Adobe Experience Manager
-project-link: http://www.yoursingapore.com/mice
+project-link: http://www.shareittoendit.com
 ---
 

@@ -1,24 +1,22 @@
 ---
 title: Gardens By The bay - 2015
+date: 2015-11-05 00:00:00 Z
 subtitle: Desktop
 layout: default
 modal-id: 4
-date: 2015-11-05
 img: roundicons.png
 thumbnail: gbb-2015/gbb-2015-thumb.jpg
 alt: Gardens By The Bay 2015
 slider1Title: Desktop Site
-
-
 slider1:
-  - img: gbb-2015/gbb-2015.jpg
-    desc: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis.
-
-
+- img: gbb-2015/gbb-2015.jpg
+  desc: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis.
 project-date: Nov 2015
 client: NParks
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo
+  novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo
+  diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
 technologies: Gulp, Browserify, HTML5, CSS3, jQuery, Adobe Experience Manager
 project-link: http://www.gardensbythebay.com.sg
-
 ---
+
