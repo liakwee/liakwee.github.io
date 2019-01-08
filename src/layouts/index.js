@@ -1,9 +1,10 @@
-import React from "react"
-import { Link, StaticQuery, graphql } from "gatsby"
-import { scale } from "../utils/typography"
-import styles from "../styles"
-import tw from 'tailwind.macro';
-import styled from 'styled-components';
+import React from "react";
+import { Link, StaticQuery, graphql } from "gatsby";
+import { scale } from "../utils/typography";
+import Header from '../components/Header';
+// import styles from "../styles"
+// import tw from 'tailwind.macro';
+// import styled from 'styled-components';
 import '../styles/index.css';
 import "typeface-space-mono"
 import "typeface-spectral"
@@ -29,42 +30,15 @@ class Layout extends React.Component {
           const { author, homepage } = data.site.siteMetadata
           return (
             <div>
-              <div>
-                <Link
-                  to="/"
-                  css={{
-                    display: `inline-block`,
-                    textDecoration: `none`,
-                  }}
-                >
-                  <h1
-                    css={{
-                      ...scale(0),
-                      color: styles.colors.light,
-                      fontWeight: `normal`,
-                      lineHeight: 1,
-                      margin: 0,
-                    }}
-                  >
-                    gatsby-example-using-remark
-                  </h1>
-                </Link>
-              </div>
-              <div>
-                {this.props.children}
-                <div
-                  css={{
-                    ...scale(-0.5),
-                    color: styles.colors.light,
-                  }}
-                >
-                  powered by
-                  {` `}
-                  <a target="_blank" rel="noopener noreferrer" href={homepage}>
-                    {author}
-                  </a>
-                </div>
-              </div>
+              <Header />
+              {this.props.children}
+              <footer>
+                powered by
+                {` `}
+                <a target="_blank" rel="noopener noreferrer" href={homepage}>
+                  {author}
+                </a>
+              </footer>
             </div>
           )
         }}

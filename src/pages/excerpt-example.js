@@ -1,8 +1,8 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 import styles from "../styles"
-import presets from "../utils/presets"
-import { rhythm, scale } from "../utils/typography"
+// import presets from "../utils/presets"
+// import { rhythm, scale } from "../utils/typography"
 
 class Index extends React.Component {
   render() {

@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-example-using-remark",
+  "name": "liakwee-portfolio-v2",
   "private": true,
   "description": "Gatsby example site that demonstrates gatsby-transformer-remark and its plugins.",
   "version": "1.0.0",
-  "author": "Florian Kissling <sechskilo@gmail.com>",
+  "author": "Lee Liak Wee<liakwee@gmail.com>",
   "dependencies": {
     "babel-plugin-lodash": "^3.2.11",
     "babel-plugin-styled-components": "^1.8.0",
