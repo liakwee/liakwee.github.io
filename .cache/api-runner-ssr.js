@@ -1,14 +1,14 @@
 var plugins = [{
-      plugin: require('/Users/lialee0/Documents/Projects/_experiments/portfolio/node_modules/gatsby-plugin-typography/gatsby-ssr'),
+      plugin: require('/Users/lialee0/Documents/Projects/_experiments/liakwee.github.io/node_modules/gatsby-plugin-typography/gatsby-ssr'),
       options: {"plugins":[],"pathToConfigModule":"src/utils/typography.js"},
     },{
-      plugin: require('/Users/lialee0/Documents/Projects/_experiments/portfolio/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
+      plugin: require('/Users/lialee0/Documents/Projects/_experiments/liakwee.github.io/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/lialee0/Documents/Projects/_experiments/portfolio/node_modules/gatsby-plugin-typography/gatsby-ssr'),
+      plugin: require('/Users/lialee0/Documents/Projects/_experiments/liakwee.github.io/node_modules/gatsby-plugin-typography/gatsby-ssr'),
       options: {"plugins":[],"pathToConfigModule":"src/utils/typography.js"},
     },{
-      plugin: require('/Users/lialee0/Documents/Projects/_experiments/portfolio/node_modules/gatsby-remark-autolink-headers/gatsby-ssr'),
+      plugin: require('/Users/lialee0/Documents/Projects/_experiments/liakwee.github.io/node_modules/gatsby-remark-autolink-headers/gatsby-ssr'),
       options: {"plugins":[]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
