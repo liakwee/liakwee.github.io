@@ -53,7 +53,7 @@
   "scripts": {
     "develop": "npm run build:css && gatsby develop",
     "build:css": "tailwind build ./src/components/index.tailwind.css -c ./tailwind.js -o ./src/styles/index.css",
-    "build": "gatsby build",
+    "build": "npm run build:css && gatsby build",
     "start": "npm run develop",
     "serve": "gatsby serve"
   },

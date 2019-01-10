@@ -4,7 +4,7 @@ import { Link } from 'gatsby';
 
 const Cards = ({ title, cover, link, tags }) => {
   return (
-    <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+    <div className="flex flex-initial flex-col my-3 px-3 w-full md:my-4 md:px-3 md:w-1/2 lg:my-4 lg:px-3 lg:w-1/4">
       <Link to={link}>
         <article className="overflow-hidden rounded-lg shadow-lg">
           <img className="w-full m-0" src={cover} alt="Sunset in the mountains" />
